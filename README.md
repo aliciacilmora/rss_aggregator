@@ -8,6 +8,6 @@ This project is an RSS aggregator with a web crawler written in Go. It collects 
 - Customizable and extendable.
 
 ## Installation
-``Bash
+``
     git clone https://github.com/aliciacilmora/rss_aggregator.git
 ``
