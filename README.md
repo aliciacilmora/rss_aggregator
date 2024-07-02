@@ -12,10 +12,16 @@ This project is an RSS aggregator with a web crawler written in Go. It collects 
     git clone https://github.com/aliciacilmora/rss_aggregator.git
 ``
 ## Install dependencies
-
 ``
     go mod tidy
 ``
+
+## Configuration
+Create .env file in the main directory:-
+``` .env
+PORT=8080
+DB_URL=postgres://[username]:[password]@localhost:5432/[database_name]
+```
 
 ## Run the application
 ``
