@@ -6,3 +6,8 @@ This project is an RSS aggregator with a web crawler written in Go. It collects 
 - Discover new RSS feeds through web crawling.
 - Aggregate and consolidate RSS feeds into a single feed.
 - Customizable and extendable.
+
+## Installation
+``Bash
+    git clone https://github.com/aliciacilmora/rss_aggregator.git
+``
