@@ -9,11 +9,11 @@ This project is an RSS aggregator with a web crawler written in Go. It collects 
 
 ## Installation
 ```Bash
-    git clone https://github.com/aliciacilmora/rss_aggregator.git
+git clone https://github.com/aliciacilmora/rss_aggregator.git
 ```
 ## Install dependencies
 ```Bash
-    go mod tidy
+go mod tidy
 ```
 
 ## Configuration
@@ -25,5 +25,26 @@ DB_URL=postgres://[username]:[password]@localhost:5432/[database_name]
 
 ## Run the application
 ```Bash
-    go build && ./rss_aggreagator
+go build && ./rss_aggreagator
 ```
+
+## Usage
+You can use Thunder Client by downloading the Thunder Client extension on VS code or curl directly from terminal.
+
+It runs of [[http://localhost:8080/v1/]]
+
+### API Endpoints
+- User Management:
+    ** GET /v1/users: Get user information.
+    ** POST /v1/users: Create a new user.
+- Error Handling:
+    ** GET /v1/err: Handle errors.
+- Feeds:
+    ** GET /v1/feeds: Get list of feeds.
+    ** POST /v1/feeds: Add new feeds from XML or similar.
+- Feed Follows:
+    ** GET /v1/feed_follows: See followed feeds.
+    ** POST /v1/feed_follows: Follow a new feed.
+    ** DELETE /v1/feed_follows/{feedFollowID}: Unfollow a feed.
+- Posts:
+    ** GET /v1/posts: See posts from followed feeds.
