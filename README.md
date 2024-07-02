@@ -11,3 +11,13 @@ This project is an RSS aggregator with a web crawler written in Go. It collects 
 ``
     git clone https://github.com/aliciacilmora/rss_aggregator.git
 ``
+## Install dependencies
+
+``
+    go mod tidy
+``
+
+## Run the application
+``
+    go build && ./rss_aggreagator
+``
