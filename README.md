@@ -75,5 +75,4 @@ It runs of http://localhost:8080/v1/
 
     * GET /v1/posts: See posts from followed feeds.
 
-        ![find_posts_from_followed_feed](./assets/
-        posts_from_followed_feed.png)
+        ![find_posts_from_followed_feed](./assets/posts_from_followed_feed.png)
